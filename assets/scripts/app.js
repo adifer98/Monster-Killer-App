@@ -11,7 +11,7 @@ const EVENT_MONSTER_ATTACK = 'MONSTER_ATTACK';
 const EVENT_PLAYER_HEAL = 'PLAYER_HEAL';
 const EVENT_GAME_OVER = 'GAME_OVER';
 
-const enteredValue = prompt("Please Choose a maximum life for you and for the monster", '100');
+const enteredValue = prompt("Please choose a maximum life for you and for the monster", '100');
 
 let chosenMaxLife = parseInt(enteredValue); //the max life chosen
 let battleLog = [];
