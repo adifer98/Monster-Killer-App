@@ -18,6 +18,7 @@ let battleLog = [];
 
 //checks if the chosen max life is not valid and changes this value
 if (isNaN(chosenMaxLife) || chosenMaxLife <= 0) {
+    alert('You gave an invalid choice, max life will be 100');
     chosenMaxLife = 100; //the default one
 }
 
